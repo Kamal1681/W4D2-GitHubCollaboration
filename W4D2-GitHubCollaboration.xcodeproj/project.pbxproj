@@ -13,6 +13,8 @@
 		E9D11EA02202041A00B98591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D11E9F2202041A00B98591 /* Assets.xcassets */; };
 		E9D11EA32202041A00B98591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D11EA12202041A00B98591 /* LaunchScreen.storyboard */; };
 		E9D11EA62202041A00B98591 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D11EA52202041A00B98591 /* main.m */; };
+		E9D11EAE22020BC400B98591 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D11EAD22020BC400B98591 /* Color.m */; };
+		E9D11EB122020D3900B98591 /* ModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D11EB022020D3900B98591 /* ModelManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		E9D11EA22202041A00B98591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9D11EA42202041A00B98591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9D11EA52202041A00B98591 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9D11EAC22020BC400B98591 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		E9D11EAD22020BC400B98591 /* Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		E9D11EAF22020D3900B98591 /* ModelManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelManager.h; sourceTree = "<group>"; };
+		E9D11EB022020D3900B98591 /* ModelManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				E9D11E972202041900B98591 /* AppDelegate.m */,
 				E9D11E992202041900B98591 /* ViewController.h */,
 				E9D11E9A2202041900B98591 /* ViewController.m */,
+				E9D11EAC22020BC400B98591 /* Color.h */,
+				E9D11EAD22020BC400B98591 /* Color.m */,
+				E9D11EAF22020D3900B98591 /* ModelManager.h */,
+				E9D11EB022020D3900B98591 /* ModelManager.m */,
 				E9D11E9C2202041900B98591 /* Main.storyboard */,
 				E9D11E9F2202041A00B98591 /* Assets.xcassets */,
 				E9D11EA12202041A00B98591 /* LaunchScreen.storyboard */,
@@ -142,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D11E9B2202041900B98591 /* ViewController.m in Sources */,
+				E9D11EAE22020BC400B98591 /* Color.m in Sources */,
 				E9D11EA62202041A00B98591 /* main.m in Sources */,
+				E9D11EB122020D3900B98591 /* ModelManager.m in Sources */,
 				E9D11E982202041900B98591 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
